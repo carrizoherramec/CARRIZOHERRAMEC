@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrizo Herramec</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Carrizo Herramec" id="logo">
+    <nav>
+      <a href="#productos">Productos</a>
+      <a href="#nosotros">Sobre Nosotros</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#carrito">Carrito (<span id="carrito-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="productos">
+      <h2>Productos</h2>
+      <div id="catalogo"></div>
+    </section>
+
+    <section id="carrito">
+      <h2>Carrito</h2>
+      <div id="items-carrito"></div>
+      <p>Total: $<span id="total">0</span></p>
+      <button id="finalizar">Finalizar Compra</button>
+    </section>
+
+    <section id="nosotros">
+      <h2>Sobre Nosotros</h2>
+      <p>Somos Carrizo Herramec, una empresa familiar dedicada a la venta de herramientas para mecánica general... </p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form id="form-contacto">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="mensaje" placeholder="Tu consulta" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <img src="logo.png" alt="Logo Carrizo Herramec">
+    <p>© 2025 Carrizo Herramec. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
